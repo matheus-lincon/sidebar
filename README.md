@@ -22,5 +22,7 @@ As tecnologias usadas foram:
 
 ## Preview :computer:
 
+Acesse a página: [**Desafio Sidebar**](https://matheus-lincon.github.io/sidebar/)
+
 <img src="./readme-files/preview-close.png" width="320px"/>
 <img src="./readme-files/preview-open.png" width="320px"/>
