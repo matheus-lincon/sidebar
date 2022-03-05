@@ -4,9 +4,9 @@
 
 Esse projeto foi tirado de um dos desafiso do Discover, da plataforma [Rocketseat](https://app.rocketseat.com.br/discover).
 
-Um projeto que tem como objetivo mostrar o _countdown_ em uma página sobre algum evento, etc.
+Um projeto que tem como objetivo mostrar opções de um menu através de uma _sidebar_.
 
-Para mais detalhes sobre o projeto você pode conferir clicando [AQUI](https://app.rocketseat.com.br/discover/challenges/countdown).
+Para mais detalhes sobre o projeto você pode conferir clicando [AQUI](https://app.rocketseat.com.br/discover/challenges/sidebar).
 
 ---
 
