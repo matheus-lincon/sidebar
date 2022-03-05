@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+
+  position: relative;
+  margin-left: calc(62px + 18px);
+}
+
+body.toggle {
+  margin-left: calc(250px + 18px);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 62px;
+
+  background-color: var(--green);
+  transition: 0.2s;
+}
+
+.sidebar #menu-content {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.sidebar #menu-content #menu-icon img {
+  position: absolute;
+
+  top: 14px;
+  right: 20px;
+
+  cursor: pointer;
+}
+
+.sidebar #menu-content #logo {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sidebar #navigation-links .option-name {
+  visibility: hidden;
+  opacity: 1;
+}
+
+.sidebar .profile-content #profile {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* sidebar toggled */
+.sidebar.toggle {
+  width: 250px;
+  transition: 0.2s;
+
+  height: 100%;
+}
+.sidebar.toggle #menu-content #logo {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sidebar.toggle #navigation-links .option-name {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sidebar.toggle .profile-content #profile {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sidebar.toggle #navigation-links li a img {
+  margin-right: 10px;
+}
+
+/* navigation */
+#navigation-links {
+  margin-top: 40px;
+}
+
+#navigation-links li {
+  list-style: none;
+  margin: 0 10px;
+
+  width: 100%;
+  height: 50px;
+
+  position: relative;
+}
+
+#navigation-links li a {
+  text-decoration: none;
+  color: var(--text-color);
+
+  display: flex;
+  align-items: center;
+  width: 80%;
+  border-radius: 12px;
+}
+
+#navigation-links li a.option.active {
+  background-color: var(--light-green);
+}
+
+#navigation-links li a:hover {
+  background-color: var(--light-green);
+}
+
+#navigation-links li input {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 80%;
+
+  padding: 0.7rem;
+  outline: none;
+  border: none;
+  background: none;
+  border-radius: 12px;
+  margin-left: 40px;
+  font-size: 1.1rem;
+}
+
+#navigation-links li a img {
+  margin-right: 0;
+  padding: 0.7rem;
+}
+
+#navigation-links li a #search-icon {
+  z-index: 9;
+}
+
+/* profile */
+.profile-content #profile {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--light-green);
+  width: 100%;
+  padding: 12px;
+}
+
+.profile-content #profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-content #profile-info #text {
+  margin-left: 10px;
+}
+
+.profile-content #profile-info #text .profile-name {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.profile-content #profile-info #text .job-name {
+  font-size: 12px;
+}
+
+.profile-content #profile-info img {
+  width: 40px;
+  border-radius: 12px;
+}
+
+.profile-content #logout-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <div id="menu-content">
+          <div id="logo">
+            <a href="./index.html"
+              ><img src="./images/logo.svg" alt="Logo"
+            /></a>
+          </div>
+          <div id="menu-icon">
+            <img src="./images/menu.svg" alt="Menu" />
+          </div>
+        </div>
+
+        <ul id="navigation-links">
+          <li>
+            <a href="#" class="option active search">
+              <img id="search-icon" src="./images/search.svg" alt="Search" />
+              <input
+                class="option-name"
+                type="text"
+                id="search-field"
+                placeholder="Buscar"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="option">
+              <img src="./images/grid.svg" alt="Dashboard " />
+              <span class="option-name">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="option">
+              <img src="./images/pet.svg" alt="Pet" />
+              <span class="option-name">Pet</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="option">
+              <img src="./images/user.svg" alt="Clients" />
+              <span class="option-name">Clientes</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="option">
+              <img src="./images/vet.svg" alt="Vet" />
+              <span class="option-name">Vet</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="option">
+              <img src="./images/settings.svg" alt="Settings" />
+              <span class="option-name">Ajustes</span>
+            </a>
+          </li>
+        </ul>
+        <div class="profile-content">
+          <div id="profile">
+            <div id="profile-info">
+              <div id="user-photo">
+                <img src="./images/user-photo.jpg" alt="User photo" />
+              </div>
+              <div id="text">
+                <p class="profile-name">Oswaldo</p>
+                <p class="profile-job">Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <img id="logout-icon" src="./images/log-out.svg" alt="Log Out" />
+        </div>
+      </div>
+
+      <div id="container">
+        <h1>Page...</h1>
+      </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
