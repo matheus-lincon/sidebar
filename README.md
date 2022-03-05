@@ -2,7 +2,7 @@
 
 ## Sobre o projeto :information_source:
 
-Esse projeto foi tirado de um dos desafiso do Discover, da plataforma [Rocketseat](https://app.rocketseat.com.br/discover).
+Esse projeto foi tirado de um dos desafios do Discover, da plataforma [Rocketseat](https://app.rocketseat.com.br/discover).
 
 Um projeto que tem como objetivo mostrar opções de um menu através de uma _sidebar_.
 
